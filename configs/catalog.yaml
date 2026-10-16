@@ -1,0 +1,33 @@
+
+versionServer: 0.0.1
+versionClient: 0.0.1
+
+menu:
+  - id: templates
+    name: Templates
+    items:
+      - id: terraform
+        name: Terraform
+        description: Templates feitos em Terraform
+        items:
+          - id: terraform-tsuru
+            name: Terraform para Tsuru
+            description: Template de infraestrutura para Tsuru
+            source:
+              type: git
+              url: https://git.empresa.com/devops/terraform-tsuru.git
+              ref: v1.0.0
+          - id: terraform-tsuru-full
+            name: Terraform para Tsuru Full
+            description: Template de infraestrutura para Tsuru com full
+            source:
+              type: git
+              url: https://git.empresa.com/devops/terraform-tsuru.git
+              ref: v1.0.0
+          - id: terraform-rpaas-gcp-fe-gcs
+            name: Template Terraform de RpaaS de FE com GCS como Backend
+            description: Template de infraestrutura para Tsuru tendo o RpaaS FE e Backend o GCS do Google
+            source:
+              type: git
+              url: https://gitlab.globoi.com/devops/terraform/terraform-boilerplate/router-gcp-boilerplate
+              ref: v1.0.0
